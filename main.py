@@ -1,7 +1,10 @@
 from spook import spook
+from functions import random_fact
+
 
 spook('Pete')
 
+random_fact()
 
 # TODO: Take the name and print a message!
 tell_my_name('Ghosty')
@@ -32,3 +35,4 @@ feed_the_dog('dogfood')
 
 # TODO: Take your medicine!
 take_medicine('flu')
+
